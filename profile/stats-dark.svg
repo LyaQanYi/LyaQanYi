@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">&#27973;&#24518;QanYi's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 35, Total Commits  : 592, Total PRs: 209, Total Issues: 21, Contributed to (last year): 15</desc>
+        <desc id="descId">Total Stars Earned: 37, Total Commits  : 592, Total PRs: 210, Total Issues: 26, Contributed to (last year): 15</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 100.84481507609115;
+        stroke-dashoffset: 98.08186137475673;
       }
     }
   
@@ -162,7 +162,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >35</text>
+      >37</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >209</text>
+      >210</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >21</text>
+      >26</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
