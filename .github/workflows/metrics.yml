@@ -136,24 +136,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      # 11. Top Languages 卡片 - 透明主题（浅色模式）
-      - name: Top Languages (Transparent)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: "username=${{ github.repository_owner }}&layout=compact&theme=transparent&hide_border=true&langs_count=8"
-          path: profile/langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # 12. Top Languages 卡片 - Ocean Dark 主题（深色模式）
-      - name: Top Languages (Ocean Dark)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: "username=${{ github.repository_owner }}&layout=compact&theme=ocean_dark&hide_border=true&langs_count=8"
-          path: profile/langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
      # 13. 统一提交 github-readme-stats 生成的 SVG
       - name: Commit Stats Cards
         run: |
